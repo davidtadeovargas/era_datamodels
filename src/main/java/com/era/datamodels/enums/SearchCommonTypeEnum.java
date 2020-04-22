@@ -51,5 +51,7 @@ public enum SearchCommonTypeEnum {
     CUSTOMERS_SERIE,
     CPS,
     COUNTRIES,
-    SECTORS
+    SECTORS,
+    FISCAL_REGIMEN,
+    EXPEDITION_PLACE
 }
