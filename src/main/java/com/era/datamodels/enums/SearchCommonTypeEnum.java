@@ -19,6 +19,7 @@ public enum SearchCommonTypeEnum {
     CONCEPTS,
     PAYMENT_TYPES,
     COINS,
+    CCOINS,
     WAREHOUSES,
     CLASSIFICATIONS,
     SUPPLIERS_CLASIFICATION,
