@@ -13,6 +13,7 @@ public enum SearchCommonTypeEnum {
     CUSTOMERS,
     BASDATS,
     PRODUCTS,
+    PRODUCTS_FOR_SALE,
     SUPPLIERS,
     USERS,        
     KITS,
