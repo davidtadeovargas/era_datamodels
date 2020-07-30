@@ -14,6 +14,5 @@ public enum DocumentType {
     INVOICE,
     SALES,
     TICKETS,
-    NOTC,
-    INVOICE_NOT_RINGED_CONFIRMED
+    NOTC
 }
