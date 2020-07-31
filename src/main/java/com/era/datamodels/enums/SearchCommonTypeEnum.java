@@ -53,5 +53,6 @@ public enum SearchCommonTypeEnum {
     SECTORS,
     FISCAL_REGIMEN,
     EXPEDITION_PLACE,
-    CLAVES_PROD_SAT
+    CLAVES_PROD_SAT,
+    PRODUCTO_PRICE_LIST
 }
