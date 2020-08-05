@@ -33,6 +33,7 @@ public class NewVtaHeaderInfoDataModel {
     private User Salesman;
     private boolean paid;
     private String date;
+    private String expeditionPlace;
 
     public Serie getSerie() {
         return Serie;
@@ -152,5 +153,13 @@ public class NewVtaHeaderInfoDataModel {
 
     public void setDate(String date) {
         this.date = date;
-    }        
+    }
+
+    public String getExpeditionPlace() {
+        return expeditionPlace;
+    }
+
+    public void setExpeditionPlace(String expeditionPlace) {
+        this.expeditionPlace = expeditionPlace;
+    }
 }
