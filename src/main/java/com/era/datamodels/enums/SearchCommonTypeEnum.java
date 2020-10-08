@@ -11,6 +11,7 @@ package com.era.datamodels.enums;
  */
 public enum SearchCommonTypeEnum {
     CUSTOMERS,
+    PAYMENT_METHOD,
     BASDATS,
     PRODUCTS,
     PRODUCTS_FOR_SALE,
@@ -32,6 +33,7 @@ public enum SearchCommonTypeEnum {
     UNIDS,
     PESOS,
     MEASURES,
+    BANCOS,
     FABRICANTES,
     SALES_MAN,
     MODELS,
