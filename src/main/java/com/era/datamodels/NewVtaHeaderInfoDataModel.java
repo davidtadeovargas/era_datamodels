@@ -6,9 +6,9 @@
 package com.era.datamodels;
 
 import com.era.models.CPaymentForm;
+import com.era.models.CPaymentMethod;
 import com.era.models.CUsoCFDI;
 import com.era.models.Coin;
-import com.era.models.MetogoPago;
 import com.era.models.Serie;
 import com.era.models.User;
 
@@ -22,7 +22,7 @@ public class NewVtaHeaderInfoDataModel {
     private CPaymentForm CPaymentForm;
     private CUsoCFDI CUsoCFDI;
     private Coin Coin;
-    private MetogoPago MetogoPago;
+    private CPaymentMethod MetogoPago;
     private String account;
     private boolean ring;
     private boolean sendEmail;
@@ -67,12 +67,12 @@ public class NewVtaHeaderInfoDataModel {
         this.Coin = Coin;
     }
 
-    public MetogoPago getMetogoPago() {
+    public CPaymentMethod getMetogoPago() {
         return MetogoPago;
     }
 
-    public void setMetogoPago(MetogoPago MetogoPago) {
-        this.MetogoPago = MetogoPago;
+    public void setMetogoPago(CPaymentMethod CPaymentMethod) {
+        this.MetogoPago = CPaymentMethod;
     }
 
     public String getAccount() {
